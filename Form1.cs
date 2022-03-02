@@ -116,18 +116,5 @@ namespace barcodeUSBRS232network
             //richTextBox_received.AppendText("Ascii Format : " + rcvData_ascii_format + "\r\n");
         }
 
-        
-        private void Form1_KeyUp(object sender, KeyEventArgs e)
-        {
-            barcode = textBoxSerial.Text.Trim().ToString();
-            save_csv("11");
-
-        }
-
-        private void Form1_MouseDown(object sender, MouseEventArgs e)
-        {
-            barcode = textBoxSerial.Text.Trim().ToString();
-            save_csv("11");
-        }
     }
 }
